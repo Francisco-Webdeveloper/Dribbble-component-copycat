@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name-and-rating h3, .name-and-rating p {
+  margin: 4px 8px;
+}
+
+.more {
+  color: #726f66;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: -6px;
+}
